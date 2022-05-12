@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9de99ebc62.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="page">
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-brand">
+                    jorysh
+                </div>
+                <div class="header-nav">
+                    <a class="nav-link" href="main.html">Главная</a>
+                    <a class="nav-link" href="music.html">Моя музыка</a>
+                    <a class="nav-link" href="about.html">Обо мне</a>
+                    <a class="nav-link" href="vinyl.html">Мой винил</a>
+                    <a class="nav-link" href="register.html">Регистрация</a>
+                    <a class="nav-link" href="login.html">Войти</a>
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- FORM -->
+    <div class="container">
+        <div class="register-container">
+            <div class="register-filling">
+                <div class="register-border">
+                    <h2 class="register-title">Регистрация</h2>
+                </div>
+                <form action="/" method="POST">
+                    <div class="register-section">
+                        <div class="register-form-group">
+                            <div class="register-form-row-1">
+                                <label>Ваше имя</label>
+                            </div>
+                            <div class="register-form-row-2">
+                                <input class="register-form-input" type="text" name="name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-section">
+                        <div class="register-form-group">
+                            <div class="register-form-row-1">
+                                <label>Ваш email</label>
+                            </div>
+                            <div class="register-form-row-2">
+                                <input class="register-form-input" type="email" name="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-section">
+                        <div class="register-form-group">
+                            <div class="register-form-row-1">
+                                <label>Придумайте пароль</label>
+                            </div>
+                            <div class="register-form-row-2">
+                                <input class="register-form-input" type="password" name="password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-section">
+                        <div class="register-form-group">
+                            <div class="register-form-row-1">
+                                <label>Повторите пароль</label>
+                            </div>
+                            <div class="register-form-row-2">
+                                <input class="register-form-input" type="password" name="password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-section">
+                        <div class="register-form-group">
+                            <div class="register-form-row-1">
+                                <label>Какую музыку Вы слушаете?</label>
+                            </div>
+                            <div class="register-form-row-2">
+                                <textarea class="register-form-textarea" name="text"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-section">
+                        <div class="register-form-group">
+                            <div class="register-form-row-1">
+                                Ваш пол
+                            </div>
+                            <div class="register-form-row-2">
+                                <label>М</label>
+                                <input class="register-form-radio" type="radio" name="choose-male">
+                                <label>Ж</label>
+                                <input class="register-form-radio" type="radio" name="choose-male">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-section">
+                        <div class="register-form-group">
+                            <div class="register-form-row-1">
+                                Любите Lo-Fi?
+                            </div>
+                            <div class="register-form-row-2">
+                                <input class="register-form-checkbox" type="checkbox" id="i-love-lofi">
+                                <label class="i-love-lofi" for="i-love-lofi">Я люблю Lo-Fi</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register-border">
+                        <div class="register-section">
+                            <div class="register-form-group">
+                                <button class="btn" type="submit">Зарегистрироваться</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <aside class="sidebar">
+                
+                <div class="sidebar-container">
+                    <h2 class="sidebar-title sidebar-title--register">Уже есть аккаунт?</h2>
+                    <div class="btn btn-side">
+                        
+                        <a class="read-full" href="login.html">Войти</a>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-nav">
+                    <a class="footer-nav-link" href="main.html">Главная</a>
+                    <a class="footer-nav-link" href="about.html">Обо мне</a>
+                    <a class="footer-nav-link" href="music.html">Моя музыка</a>
+                    <a class="footer-nav-link" href="vinyl.html">Мой винил</a>
+                    <a class="footer-nav-link active" href="register.html">Регистрация</a>
+                    <a class="footer-nav-link" href="login.html">Войти</a>
+                </div>
+                <div class="footer-socials">
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a class="nav-link" href="#">
+                        <i class="fa-brands fa-soundcloud"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-inner footer-inner--copyright">
+                <div class="footer-copyright">
+                    &copy <span>2022 jorysh</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>
